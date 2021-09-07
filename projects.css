@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  font-size: 30px;
+  padding: 5px 30px;
+}
+.navbar-brand {
+  font-size: 25px;
+}
+.connect {
+  color: white;
+  font-size: 20px;
+}
+.social {
+  color: white;
+}
+.social:hover {
+  color: orange;
+}
+.s-link {
+  color: orange;
+}
+.s-link:hover {
+  color: white;
+}
+
+.project {
+  position: relative;
+  background-color: black;
+  color: white;
+  opacity: 0.9999;
+  border-radius: 0;
+  height: 100%;
+  padding-bottom: 140px;
+}
+
+.project::before {
+  content: "";
+  background: url("./images/projects-img.jpg") no-repeat center center/cover;
+  position: absolute;
+  opacity: 0.15;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.col-md-4 .btn-dark a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.col-md-4 .btn-dark {
+  background-color: #011e2c;
+}
+.col-md-4 .btn-dark:hover {
+  background-color: orange;
+}
+.col-md-4 .btn-dark:hover a {
+  color: black;
+}
+
+@media screen and (min-width: 770px) {
+  .project {
+    padding-left: 50px;
+  }
+  .project .card-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .project .card-text {
+    font-size: 20px;
+  }
+  .col-md-4 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .project .card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .col-md-4 .btn-dark a {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+  .navbar-brand {
+    margin-right: 850px;
+  }
+}
