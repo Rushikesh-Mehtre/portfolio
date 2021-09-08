@@ -88,7 +88,7 @@ i {
     margin-bottom: 10px;
   }
   .card-text {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 990px) {
@@ -105,9 +105,9 @@ i {
 }
 @media screen and (max-width: 735px) {
   .col-md-4 img {
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
-    padding: 10px 10px;
+    padding: 15px 15px;
   }
   .hire {
     font-size: 15px;
