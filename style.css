@@ -109,5 +109,9 @@ i {
     width: 100vw;
     padding: 10px 10px;
   }
+  .hire {
+    font-size: 15px;
+    margin-right: 5px;
+  }
 }
 
