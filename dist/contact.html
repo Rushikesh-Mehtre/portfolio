@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rushikesh Mehtre | Contact</title>
+    <link rel="icon" type="image/x-icon" href="./download.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/aa0cd4b13a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const clickHandler = () => {
+        console.log("clicked");
+        if (document.getElementById("menu-items").style.display === "none") {
+          document.getElementById("menu-items").style.display = "block";
+        } else {
+          document.getElementById("menu-items").style.display = "none";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <div class="logo-head">
+            <a id="logo" href="index.html">Portfolio Website</a>
+            <img
+              src="./img/Hamburger_icon.svg.png"
+              alt=""
+              onclick="clickHandler()"
+              id="ham-icon"
+            />
+          </div>
+          <ul id="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="contact-a" class="py-2">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="bottom-line"></div>
+        <form
+          action="https://formspree.io/f/xknkdjze"
+          method="post"
+          class="contact-form"
+        >
+          <label for="name"> Name</label>
+          <input type="text" id="name" type="name" />
+          <label for="email"> Email</label>
+          <input name="Email" id="email" type="email" />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-b" class="bg-dark py-2">
+      <div class="container">
+        <h2 class="section-title">Contact info</h2>
+        <div class="bottom-line"></div>
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>(+91)-7021476869</p>
+          </div>
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>rsmrsm5952@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>Wakad, Pune</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact-c" class="bg-main py-3">
+      <div class="container">
+        <h1>Lets start your next project !</h1>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022. All rights reserved</p>
+        <div class="social">
+          <a href="https://www.instagram.com/rs_mehtre/">
+            <i class="fab fa-instagram"> </i
+          ></a>
+          <a href="https://www.linkedin.com/in/rushikesh-mehtre-122a81217/">
+            <i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Rushikesh-Mehtre"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <a href="#"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/typewriter.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rushikesh Mehtre | About</title>
+    <link rel="icon" type="image/x-icon" href="./download.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/aa0cd4b13a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const clickHandler = () => {
+        console.log("clicked");
+        if (document.getElementById("menu-items").style.display === "none") {
+          document.getElementById("menu-items").style.display = "block";
+        } else {
+          document.getElementById("menu-items").style.display = "none";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <div class="logo-head">
+            <a id="logo" href="index.html">Portfolio Website</a>
+            <img
+              src="./img/Hamburger_icon.svg.png"
+              alt=""
+              onclick="clickHandler()"
+              id="ham-icon"
+            />
+          </div>
+          <ul id="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="current">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="about-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Let me tell you about myself and what I do...</p>
+        <div class="about-info">
+          <img src="./img/profile-image.jpg" alt="" />
+          <div class="bio bg-light">
+            <h4>Your project is in safe hands !</h4>
+            <p>
+              I am frontend developer and aims to build quality web applications
+              and responsive UI layouts. I am proficient in HTML5,
+              CSS3(including SASS), Javascript, Bootstrap and ReactJS. I have
+              clear understanding of responsive web designs and try to achieve
+              best user experience through my skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-b" class="py-3 bg-dark">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="bottom-line"></div>
+        <h4>HTML5</h4>
+        <div class="progress">
+          <div style="width: 90%"></div>
+        </div>
+        <h4>CSS3</h4>
+        <div class="progress">
+          <div style="width: 90%"></div>
+        </div>
+        <h4>Bootstrap</h4>
+        <div class="progress">
+          <div style="width: 80%"></div>
+        </div>
+        <h4>JavaScript</h4>
+        <div class="progress">
+          <div style="width: 70%"></div>
+        </div>
+        <h4>ReactJS</h4>
+        <div class="progress">
+          <div style="width: 70%"></div>
+        </div>
+      </div>
+    </section>
+    <section id="about-c" class="text-center py-3 bg-light">
+      <div class="container">
+        <div class="about-logos">
+          <i class="fab fa-html5 fa-5x"></i>
+          <i class="fab fa-css3-alt fa-5x"></i>
+          <i class="fab fa-bootstrap fa-5x"></i>
+          <i class="fab fa-js-square fa-5x"></i>
+          <i class="fab fa-react fa-5x"></i>
+          <i class="fab fa-github-square fa-5x"></i>
+        </div>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022. All rights reserved</p>
+        <div class="social">
+          <a href="https://www.instagram.com/rs_mehtre/">
+            <i class="fab fa-instagram"> </i
+          ></a>
+          <a href="https://www.linkedin.com/in/rushikesh-mehtre-122a81217/">
+            <i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Rushikesh-Mehtre"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <a href="#"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/typewriter.js"></script>
+  </body>
+</html>
